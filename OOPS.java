@@ -1,14 +1,24 @@
 /**
- *This class demonstrates a simple java application that displayed OOPS
+ *This class demonstrates a simple java application that displayed OOPS using stars pattern
  *@author Developer
- *@version 1.0
- */
+ *@version 2
+*/
 
 
 class Message
 {
 	public static void main(String[] args)
 	{
-		System.out.print("OOPS");
+		System.out.println("    ***    " + " " + "    ***    "  + " " + "*********  " + " " + "***********");
+		System.out.println("  *** ***  " + " " + "  *** ***  "  + " " + "*        * " + " " + "*          ");
+		System.out.println(" ***   *** " + " " + " ***   *** "  + " " + "*         *" + " " + "*          ");
+		System.out.println("***     ***" + " " + "***     ***"  + " " + "*         *" + " " + "*          ");
+		System.out.println("***     ***" + " " + "***     ***"  + " " + "*        * " + " " + "*          ");
+		System.out.println("***     ***" + " " + "***     ***"  + " " + "*       *  " + " " + "***********");
+		System.out.println("***     ***" + " " + "***     ***"  + " " + "********   " + " " + "          *");
+		System.out.println("***     ***" + " " + "***     ***"  + " " + "*          " + " " + "          *");
+		System.out.println(" ***   *** " + " " + " ***   *** "  + " " + "*          " + " " + "          *" );
+		System.out.println("  *** ***  " + " " + "  *** ***  "  + " " + "*          " + " " + "          *" );
+		System.out.println("    ***    " + " " + "    ***    "  + " " + "*          " + " " + "***********" );
 		}
 }
